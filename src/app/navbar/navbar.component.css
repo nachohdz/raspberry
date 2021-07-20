@@ -1,0 +1,12 @@
+nav{
+    width: 100%;
+    background: #0A7EDB;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: #f2f4f9;
+    margin: 0 24px;
+}
