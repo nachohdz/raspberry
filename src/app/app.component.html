@@ -1,5 +1,13 @@
 <app-navbar></app-navbar>
 <div class="content">
-  
+  <div class="reciente-box">
+        <h3>Lectura más reciente</h3>
+        <h2>{{reciente.temperatura}}°</h2>
+        <h4>20 julio 2021 19:00pm</h4>
+  </div>
+  <p  [ngClass]="isNormal ? 'success-text' : 'error-text'">{{message}}</p>
+  <div id="divChart">
+    <canvas id="dayChart"></canvas>
+  </div>
 </div>
 <app-footer></app-footer>

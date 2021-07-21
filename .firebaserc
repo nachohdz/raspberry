@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "raspberry-acbe7": {
+      "hosting": {
+        "raspberry": [
+          "raspberry-acbe7"
+        ]
+      }
+    }
+  }
+}
