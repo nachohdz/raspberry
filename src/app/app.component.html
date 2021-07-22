@@ -2,12 +2,16 @@
 <div class="content">
   <div class="reciente-box">
         <h3>Lectura más reciente</h3>
-        <h2>{{reciente.temperatura}}°</h2>
-        <h4>20 julio 2021 19:00pm</h4>
+        <h2>{{tempReciente}}</h2>
+        <h4>{{dia}} {{mes}} {{year}} {{this.reciente.hora}}</h4>
   </div>
   <p  [ngClass]="isNormal ? 'success-text' : 'error-text'">{{message}}</p>
   <div id="divChart">
     <canvas id="dayChart"></canvas>
+  </div>
+  <div class="reciente-box">
+    <h3>Temperatura promedio del día:</h3>
+    <h2>{{promedio}}</h2>
   </div>
 </div>
 <app-footer></app-footer>
